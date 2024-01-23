@@ -6,7 +6,7 @@ export default {
       backgroundImage: {
         bg1: `url("./src/assets/img/background/1.jpg")`,
         bg2: `url("./src/assets/img/background/2.jpg")`,
-        bg3: `url("./src/assets/img/background/3.jpg")`,
+        bg3: `url("/src/assets/img/background/3.jpg")`,
         bg4: `url("./src/assets/img/background/4.jpg")`,
         bg5: `url("./src/assets/img/background/5.jpg")`,
         bg6: `url("./src/assets/img/background/6.jpg")`,

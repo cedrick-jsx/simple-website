@@ -1,6 +1,7 @@
 import spa from "../assets/img/service/spa.jpg";
 import gym from "../assets/img/service/gym.jpg";
 import restaurant from "../assets/img/service/restaurant.jpg";
+import bg1 from "../assets/img/background/3.jpg";
 
 export default function Home() {
   return (
@@ -20,9 +21,7 @@ export default function Home() {
         }
       >
         <div
-          className={
-            "bg-spa bg-cover bg-center bg-no-repeat w-[30%] h-[500px] relative p-5"
-          }
+          className={`bg-spa bg-cover bg-center bg-no-repeat w-[30%] h-[500px] relative p-5`}
         >
           <p className={"text-4xl text-blue-950"}>Oasis</p>
           <p className={"text-blue-950 text-4xl"}>Spa</p>
