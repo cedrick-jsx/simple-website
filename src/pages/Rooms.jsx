@@ -8,14 +8,14 @@ export default function Rooms() {
     <>
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[600px] uppercase tracking-widest bg-bg5 bg-cover bg-no-repeat bg-fixed bg-center px-[5%]"
+          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest bg-bg5 bg-cover bg-no-repeat bg-fixed bg-center px-[5%]"
         }
       >
         <p className={"text-blue-50 text-6xl text-left w-full"}>
           OUR ROOMS & SUITES
         </p>
 
-        <p className={"text-blue-50 text-2xl text-left w-full mt-8"}>
+        <p className={"text-blue-50 text-2xl text-left w-full"}>
           Discover our Resort's accommodation and feel free to book your stay
           any time!
         </p>
@@ -65,7 +65,7 @@ const OasisRooms = (props) => {
       }
     >
       <div className={"p-5 h-full"}>
-        <p className={"text-5xl"}>
+        <p className={"text-5xl text-blue-950"}>
           {props.bed === "single"
             ? "Single Room"
             : props.bed === "double"
@@ -74,7 +74,7 @@ const OasisRooms = (props) => {
             ? "Family Room"
             : props.bed === "deluxe" && "Deluxe Room"}
         </p>
-        <p className={"text-xl font-medium mt-10 normal-case"}>
+        <p className={"text-xl font-medium mt-10 normal-case text-blue-950"}>
           {props.children}
         </p>
       </div>
@@ -89,7 +89,7 @@ const OasisRooms = (props) => {
             ? family
             : props.bed === "deluxe" && deluxe
         }
-        alt="single"
+        alt={props.bed}
         className={"w-2/4 h-full"}
       />
     </div>

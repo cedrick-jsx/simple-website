@@ -3,11 +3,11 @@ export default function Contact() {
     <>
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[600px] uppercase tracking-widest font-extrabold px-[5%] bg-bg9 bg-cover bg-no-repeat bg-fixed bg-center"
+          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest font-extrabold px-[5%] bg-bg9 bg-cover bg-no-repeat bg-fixed bg-center"
         }
       >
-        <p className={"text-3xl mb-10 text-blue-50"}>A MAGICAL PLACE</p>
-        <p className={"text-7xl mb-10 text-blue-50"}>OUR RESORT'S LOCATION</p>
+        <p className={"text-3xl text-blue-50"}>A MAGICAL PLACE</p>
+        <p className={"text-7xl text-blue-50"}>OUR RESORT'S LOCATION</p>
       </section>
 
       <section
