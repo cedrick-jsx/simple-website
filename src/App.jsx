@@ -22,7 +22,6 @@ export default function App() {
 
         <div className={"text-blue-100 text-2xl leading-[3] uppercase"}>
           <Link
-            reloadDocument
             to="/"
             className={
               "px-3 py-5 hover:bg-blue-50 hover:text-blue-950 font-medium transition-all"
@@ -32,7 +31,6 @@ export default function App() {
           </Link>
 
           <Link
-            reloadDocument
             to="/Rooms"
             className={
               "px-3 py-5 hover:bg-blue-50 hover:text-blue-950 font-medium transition-all"
@@ -42,7 +40,6 @@ export default function App() {
           </Link>
 
           <Link
-            reloadDocument
             to="/Contact"
             className={
               "px-3 py-5 hover:bg-blue-50 hover:text-blue-950 font-medium transition-all"
