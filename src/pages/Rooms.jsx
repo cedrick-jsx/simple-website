@@ -8,7 +8,7 @@ export default function Rooms() {
     <>
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest bg-bg5 bg-cover bg-no-repeat bg-fixed bg-center px-[5%] xs:h-[60vw]"
+          "flex flex-col place-content-center place-items-center w-full h-[500px] uppercase tracking-widest bg-bg5 bg-cover bg-no-repeat bg-fixed bg-center px-[5%]"
         }
       >
         <p

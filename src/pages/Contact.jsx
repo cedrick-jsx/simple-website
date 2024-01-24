@@ -3,7 +3,7 @@ export default function Contact() {
     <>
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest px-[5%] bg-bg9 bg-cover bg-no-repeat bg-fixed bg-center xs:h-[60vw]"
+          "flex flex-col place-content-center place-items-center w-full h-[500px] uppercase tracking-widest px-[5%] bg-bg9 bg-cover bg-no-repeat bg-fixed bg-center"
         }
       >
         <p
@@ -38,7 +38,7 @@ export default function Contact() {
       >
         <p
           className={
-            "text-blue-950 mb-14 font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+            "text-blue-950 mb-10 font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
           }
         >
           Location

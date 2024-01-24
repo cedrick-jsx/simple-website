@@ -8,7 +8,7 @@ export default function Homes() {
     <>
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest bg-bg3 bg-cover bg-center bg-no-repeat bg-fixed xs:h-[60vw]"
+          "flex flex-col place-content-center place-items-center w-full h-[500px] uppercase tracking-widest bg-bg3 bg-cover bg-center bg-no-repeat bg-fixed"
         }
       >
         <p
@@ -94,7 +94,7 @@ export default function Homes() {
 
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest font-extrabold bg-bg8 bg-cover bg-no-repeat bg-center bg-fixed px-[5%] xs:h-[60vw]"
+          "flex flex-col place-content-center place-items-center w-full h-[500px] uppercase tracking-widest font-extrabold bg-bg8 bg-cover bg-no-repeat bg-center bg-fixed px-[5%]"
         }
       >
         <p
