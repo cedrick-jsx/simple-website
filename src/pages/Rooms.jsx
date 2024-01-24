@@ -11,11 +11,19 @@ export default function Rooms() {
           "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest bg-bg5 bg-cover bg-no-repeat bg-fixed bg-center px-[5%]"
         }
       >
-        <p className={"text-blue-50 text-6xl text-left w-full"}>
+        <p
+          className={
+            "text-blue-50 text-left w-full font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+          }
+        >
           OUR ROOMS & SUITES
         </p>
 
-        <p className={"text-blue-50 text-2xl text-left w-full"}>
+        <p
+          className={
+            "text-blue-50 text-left w-full xs:text-[3vw] sm:text-[20px] md:text-[20px] lg:text-[20px] xl:text-[30px] 2xl:text-[30px]"
+          }
+        >
           Discover our Resort's accommodation and feel free to book your stay
           any time!
         </p>
@@ -61,11 +69,15 @@ const OasisRooms = (props) => {
   return (
     <div
       className={
-        "flex place-content-between place-items-center bg-blue-300 my-10"
+        "flex place-content-between place-items-center bg-blue-300 my-10 xs:flex-col sm:flex-col md:flex-col"
       }
     >
-      <div className={"p-5 h-full"}>
-        <p className={"text-5xl text-blue-950"}>
+      <div className={"p-5 h-full xs:order-2 sm:order-2 md:order-2"}>
+        <p
+          className={
+            "text-blue-950 font-serif xs:text-[7vw] sm:text-[30px] md:text-[30px] lg:text-[40px] xl:text-[60px] 2xl:text-[60px]"
+          }
+        >
           {props.bed === "single"
             ? "Single Room"
             : props.bed === "double"
@@ -74,7 +86,12 @@ const OasisRooms = (props) => {
             ? "Family Room"
             : props.bed === "deluxe" && "Deluxe Room"}
         </p>
-        <p className={"text-xl font-medium mt-10 normal-case text-blue-950"}>
+
+        <p
+          className={
+            "font-medium normal-case text-blue-950 xs:text-[2vw] sm:text-[15px] md:text-[15px] lg:text-[15px] xl:text-[20px] 2xl:text-[20px]"
+          }
+        >
           {props.children}
         </p>
       </div>
@@ -90,7 +107,9 @@ const OasisRooms = (props) => {
             : props.bed === "deluxe" && deluxe
         }
         alt={props.bed}
-        className={"w-2/4 h-full"}
+        className={
+          "h-full w-full xs:h-[50vw] sm:h-[400px] md:h-[500px] lg:w-2/4 xl:w-2/4 2xl:w-2/4"
+        }
       />
     </div>
   );

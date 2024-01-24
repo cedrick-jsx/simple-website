@@ -1,49 +1,62 @@
-import Home from "./pages/Home.jsx";
+import Home from "./pages/Homes.jsx";
 import Rooms from "./pages/Rooms.jsx";
 import Contact from "./pages/Contact.jsx";
 import { Route, Routes } from "react-router";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function App() {
+  const [currentPage, setCurrentPage] = useState("home");
+
   return (
     <>
       <nav
         className={
-          "flex place-content-between px-[5%] bg-blue-950 w-full sticky top-0 z-50"
+          "flex place-content-between place-items-center px-[5%] bg-blue-950 w-full sticky top-0 z-50 xs:h-[5vw] sm:h-[40px] md:h-[40px] lg:h-[50px] xl:h-[70px] 2xl:h-[70px]"
         }
       >
         <div
           className={
-            "text-4xl px-2 uppercase text-blue-100 leading-loose font-extrabold tracking-wide"
+            "px-2 uppercase text-blue-50 font-extrabold tracking-wide font-serif xs:text-[3vw] sm:text-[25px] md:text-[25px] lg:text-[30px] xl:text-[35px] 2xl:text-[35px]"
           }
         >
           Oasis
         </div>
 
-        <div className={"text-blue-100 text-2xl leading-[3] uppercase"}>
+        <div
+          className={
+            "text-blue-50 flex place-content-center place-items-center uppercase font-bold h-full xs:text-[2vw] sm:text-[15px] md:text-[15px] lg:text-[20px] xl:text-[25px] 2xl:text-[25px]"
+          }
+        >
           <Link
             to="/"
-            className={
-              "px-3 py-5 hover:bg-blue-50 hover:text-blue-950 font-medium transition-all"
-            }
+            className={`px-3 transition-all ${
+              currentPage === "home" &&
+              "bg-blue-50 text-blue-950 pointer-events-none"
+            } h-full flex place-content-center place-items-center`}
+            onClick={() => setCurrentPage("home")}
           >
             Home
           </Link>
 
           <Link
             to="/Rooms"
-            className={
-              "px-3 py-5 hover:bg-blue-50 hover:text-blue-950 font-medium transition-all"
-            }
+            className={`px-3 transition-all ${
+              currentPage === "rooms" &&
+              "bg-blue-50 text-blue-950 pointer-events-none"
+            } h-full flex place-content-center place-items-center`}
+            onClick={() => setCurrentPage("rooms")}
           >
             Rooms
           </Link>
 
           <Link
             to="/Contact"
-            className={
-              "px-3 py-5 hover:bg-blue-50 hover:text-blue-950 font-medium transition-all"
-            }
+            className={`px-3 transition-all ${
+              currentPage === "contact" &&
+              "bg-blue-50 text-blue-950 pointer-events-none"
+            } h-full flex place-content-center place-items-center`}
+            onClick={() => setCurrentPage("contact")}
           >
             Contact
           </Link>
