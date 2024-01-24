@@ -1,4 +1,13 @@
+import { useState } from "react";
+
 export default function Contact() {
+  const [formInfo, setFormInfo] = useState({
+    name: "",
+    contact: "",
+    email: "",
+    message: "",
+  });
+
   return (
     <>
       <section
@@ -65,6 +74,14 @@ export default function Contact() {
           }
           onSubmit={(e) => {
             e.preventDefault();
+            alert("Sent Successfully!");
+            setFormInfo({
+              ...formInfo,
+              name: "",
+              contact: "",
+              email: "",
+              message: "",
+            });
           }}
         >
           <label
@@ -84,6 +101,8 @@ export default function Contact() {
             required
             placeholder="Oasis"
             className={"text-center text-lg py-1 rounded-sm mb-3 xs:text-[4vw]"}
+            value={formInfo.name}
+            onChange={(e) => setFormInfo({ ...formInfo, name: e.target.value })}
           />
 
           <label className={"text-xl text-blue-950 xs:text-[4vw]"}>
@@ -97,6 +116,10 @@ export default function Contact() {
             required
             placeholder="0912-345-678"
             className={"text-center text-lg py-1 rounded-sm mb-3 xs:text-[4vw]"}
+            value={formInfo.contact}
+            onChange={(e) =>
+              setFormInfo({ ...formInfo, contact: e.target.value })
+            }
           />
 
           <label className={"text-xl text-blue-950 xs:text-[4vw]"}>Email</label>
@@ -108,6 +131,10 @@ export default function Contact() {
             required
             placeholder="oasis@email.com"
             className={"text-center text-lg py-1 rounded-sm mb-3 xs:text-[4vw]"}
+            value={formInfo.email}
+            onChange={(e) =>
+              setFormInfo({ ...formInfo, email: e.target.value })
+            }
           />
 
           <label className={"text-xl text-blue-950 xs:text-[4vw]"}>
@@ -122,16 +149,29 @@ export default function Contact() {
             required
             placeholder="I Love Oasis"
             className={"resize-none text-lg py-2 px-3 rounded-sm xs:text-[4vw]"}
+            value={formInfo.message}
+            onChange={(e) =>
+              setFormInfo({ ...formInfo, message: e.target.value })
+            }
           />
 
           <div className={"flex place-content-evenly py-5 text-blue-950"}>
-            <input
-              type="reset"
-              value="Clear"
+            <button
               className={
                 "bg-blue-50 w-28 leading-10 cursor-pointer text-2xl uppercase hover:text-blue-50 hover:bg-blue-950 transition-all xs:text-[4vw] xs:w-[20vw]"
               }
-            />
+              onClick={() =>
+                setFormInfo({
+                  ...formInfo,
+                  name: "",
+                  contact: "",
+                  email: "",
+                  message: "",
+                })
+              }
+            >
+              Clear
+            </button>
 
             <input
               type="submit"
