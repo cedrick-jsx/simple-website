@@ -3,7 +3,7 @@ export default function Contact() {
     <>
       <section
         className={
-          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest px-[5%] bg-bg9 bg-cover bg-no-repeat bg-fixed bg-center"
+          "flex flex-col place-content-center place-items-center w-full h-[550px] uppercase tracking-widest px-[5%] bg-bg9 bg-cover bg-no-repeat bg-fixed bg-center xs:h-[60vw]"
         }
       >
         <p
