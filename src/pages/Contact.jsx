@@ -17,7 +17,7 @@ export default function Contact() {
       >
         <p
           className={
-            "text-blue-50 w-full text-center font-bold xs:text-[5vw] sm:text-[30px] md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px]"
+            "text-blue-50 w-full text-center font-bold drop-shadow-title2 xs:text-[5vw] sm:text-[30px] md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px]"
           }
         >
           A MAGICAL PLACE
@@ -25,7 +25,7 @@ export default function Contact() {
 
         <p
           className={
-            "text-blue-50 w-full text-center font-bold font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+            "text-blue-50 w-full text-center font-bold font-serif drop-shadow-title2 xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
           }
         >
           OUR RESORT'S
@@ -33,7 +33,7 @@ export default function Contact() {
 
         <p
           className={
-            "text-blue-50 w-full text-center font-bold font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+            "text-blue-50 w-full text-center font-bold font-serif drop-shadow-title2 xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
           }
         >
           LOCATION
@@ -86,7 +86,7 @@ export default function Contact() {
         >
           <label
             className={
-              "text-center uppercase font-bold mb-10 text-blue-950 font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+              "text-center uppercase font-bold text-blue-950 font-serif xs:text-[9vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
             }
           >
             Contact
@@ -158,7 +158,7 @@ export default function Contact() {
           <div className={"flex place-content-evenly py-5 text-blue-950"}>
             <button
               className={
-                "bg-blue-50 w-28 leading-10 cursor-pointer text-2xl uppercase hover:text-blue-50 hover:bg-blue-950 transition-all xs:text-[4vw] xs:w-[20vw]"
+                "bg-blue-50 w-28 leading-10 cursor-pointer text-2xl uppercase hover:text-blue-50 hover:bg-blue-950 transition-all xs:text-[4vw] xs:w-[20vw] hover:active:scale-[0.9]"
               }
               onClick={() =>
                 setFormInfo({
@@ -177,7 +177,7 @@ export default function Contact() {
               type="submit"
               value="Submit"
               className={
-                "bg-blue-50 w-28 leading-10 cursor-pointer text-2xl uppercase hover:text-blue-50 hover:bg-blue-950 transition-all xs:text-[4vw] xs:w-[20vw]"
+                "bg-blue-50 w-28 leading-10 cursor-pointer text-2xl uppercase hover:text-blue-50 hover:bg-blue-950 transition-all xs:text-[4vw] xs:w-[20vw] hover:active:scale-[0.9]"
               }
             />
           </div>

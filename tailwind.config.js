@@ -25,6 +25,10 @@ export default {
         xl: { min: "1280px", max: "1535.9px" },
         "2xl": { min: "1536px" },
       },
+      dropShadow: {
+        title: ["-1px -1px 1px #FFFFFF"],
+        title2: ["-1px -1px 1px #000000"],
+      },
     },
   },
   plugins: [],

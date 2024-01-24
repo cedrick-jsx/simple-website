@@ -13,7 +13,7 @@ export default function Rooms() {
       >
         <p
           className={
-            "text-blue-50 text-left w-full font-serif xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+            "text-blue-50 text-left w-full font-serif drop-shadow-title2 xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
           }
         >
           OUR ROOMS & SUITES
@@ -21,7 +21,7 @@ export default function Rooms() {
 
         <p
           className={
-            "text-blue-50 text-left w-full xs:text-[3vw] sm:text-[20px] md:text-[20px] lg:text-[20px] xl:text-[30px] 2xl:text-[30px]"
+            "text-blue-50 text-left w-full drop-shadow-title2 xs:text-[3vw] sm:text-[20px] md:text-[20px] lg:text-[20px] xl:text-[30px] 2xl:text-[30px]"
           }
         >
           Discover our Resort's accommodation and feel free to book your stay

@@ -33,7 +33,7 @@ export default function App() {
             className={`px-3 transition-all ${
               currentPage === "home" &&
               "bg-blue-50 text-blue-950 pointer-events-none"
-            } h-full flex place-content-center place-items-center`}
+            } h-full flex place-content-center place-items-center hover:active:scale-[0.9]`}
             onClick={() => setCurrentPage("home")}
           >
             Home
@@ -44,7 +44,7 @@ export default function App() {
             className={`px-3 transition-all ${
               currentPage === "rooms" &&
               "bg-blue-50 text-blue-950 pointer-events-none"
-            } h-full flex place-content-center place-items-center`}
+            } h-full flex place-content-center place-items-center hover:active:scale-[0.9]`}
             onClick={() => setCurrentPage("rooms")}
           >
             Rooms
@@ -55,7 +55,7 @@ export default function App() {
             className={`px-3 transition-all ${
               currentPage === "contact" &&
               "bg-blue-50 text-blue-950 pointer-events-none"
-            } h-full flex place-content-center place-items-center`}
+            } h-full flex place-content-center place-items-center hover:active:scale-[0.9]`}
             onClick={() => setCurrentPage("contact")}
           >
             Contact

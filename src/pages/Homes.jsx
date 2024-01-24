@@ -13,21 +13,21 @@ export default function Homes() {
       >
         <p
           className={
-            "text-blue-950 font-bold xs:text-[5vw] sm:text-[30px] md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px]"
+            "text-blue-950 font-bold drop-shadow-title xs:text-[5vw] sm:text-[30px] md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px]"
           }
         >
           Indoor & Outdoor
         </p>
         <p
           className={
-            "text-blue-950 font-serif font-bold xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+            "text-blue-950 font-serif font-bold drop-shadow-title xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
           }
         >
           Enjoy a Luxury
         </p>
         <p
           className={
-            "text-blue-950 font-serif font-bold xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
+            "text-blue-950 font-serif font-bold drop-shadow-title xs:text-[7vw] sm:text-[40px] md:text-[40px] lg:text-[50px] xl:text-[70px] 2xl:text-[70px]"
           }
         >
           Experience
