@@ -53,7 +53,7 @@ export default function Homes() {
 
         <p
           className={
-            "text-blue-950 text-justify tracking-wide font-medium mt-10 xs:text-[2vw] sm:text-[15px] md:text-[15px] lg:text-[15px] xl:text-[25px] 2xl:text-[25px]"
+            "text-blue-950 text-justify tracking-wide font-medium mt-10 xs:text-[3vw] sm:text-[15px] md:text-[15px] lg:text-[15px] xl:text-[25px] 2xl:text-[25px]"
           }
         >
           Welcome to the extraordinary world of the Oasis Resort, a dazzling and
@@ -148,7 +148,7 @@ const OasisTeam = (props) => {
       }
     >
       <div
-        className={`bg-blue-50 xs:w-[25vw] xs:h-[25vw] sm:w-[150px] sm:h-[150px] md:w-[170px] md:h-[170px] lg:w-[170px] lg:h-[170px] xl:w-[200px] xl:h-[200px] 2xl:w-[200px] 2xl:h-[200px]`}
+        className={`bg-blue-50 xs:w-[35vw] xs:h-[35vw] sm:w-[150px] sm:h-[150px] md:w-[170px] md:h-[170px] lg:w-[170px] lg:h-[170px] xl:w-[200px] xl:h-[200px] 2xl:w-[200px] 2xl:h-[200px]`}
       >
         <img
           src={

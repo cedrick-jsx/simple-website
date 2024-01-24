@@ -89,7 +89,7 @@ const OasisRooms = (props) => {
 
         <p
           className={
-            "font-medium normal-case text-blue-950 xs:text-[2vw] sm:text-[15px] md:text-[15px] lg:text-[15px] xl:text-[20px] 2xl:text-[20px]"
+            "font-medium normal-case text-blue-950 xs:text-[3vw] sm:text-[15px] md:text-[15px] lg:text-[15px] xl:text-[20px] 2xl:text-[20px]"
           }
         >
           {props.children}
