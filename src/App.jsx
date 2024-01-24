@@ -12,12 +12,12 @@ export default function App() {
     <>
       <nav
         className={
-          "flex place-content-between place-items-center px-[5%] bg-blue-950 w-full sticky top-0 z-50 xs:h-[5vw] sm:h-[40px] md:h-[40px] lg:h-[50px] xl:h-[70px] 2xl:h-[70px]"
+          "flex place-content-between place-items-center px-[5%] bg-blue-950 w-full sticky top-0 z-50 xs:h-[10vw] sm:h-[40px] md:h-[40px] lg:h-[50px] xl:h-[70px] 2xl:h-[70px]"
         }
       >
         <div
           className={
-            "px-2 uppercase text-blue-50 font-extrabold tracking-wide font-serif xs:text-[3vw] sm:text-[25px] md:text-[25px] lg:text-[30px] xl:text-[35px] 2xl:text-[35px]"
+            "px-2 uppercase text-blue-50 font-extrabold tracking-wide font-serif xs:text-[5vw] sm:text-[25px] md:text-[25px] lg:text-[30px] xl:text-[35px] 2xl:text-[35px]"
           }
         >
           Oasis
@@ -25,7 +25,7 @@ export default function App() {
 
         <div
           className={
-            "text-blue-50 flex place-content-center place-items-center uppercase font-bold h-full xs:text-[2vw] sm:text-[15px] md:text-[15px] lg:text-[20px] xl:text-[25px] 2xl:text-[25px]"
+            "text-blue-50 flex place-content-center place-items-center uppercase font-bold h-full xs:text-[3vw] sm:text-[15px] md:text-[15px] lg:text-[20px] xl:text-[25px] 2xl:text-[25px]"
           }
         >
           <Link
