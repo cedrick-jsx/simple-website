@@ -70,7 +70,7 @@ export default function Contact() {
       >
         <form
           className={
-            "flex flex-col w-[500px] bg-blue-300 px-10 py-5 font-bold outline outline-4 outline-blue-950 xs:w-full"
+            "flex flex-col w-[500px] bg-blue-300 px-[20px] font-bold outline outline-4 outline-blue-950 xs:w-full"
           }
           onSubmit={(e) => {
             e.preventDefault();

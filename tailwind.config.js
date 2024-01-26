@@ -29,6 +29,15 @@ export default {
         title: ["-1px -1px 1px #FFFFFF"],
         title2: ["-1px -1px 1px #000000"],
       },
+      keyframes: {
+        menu: {
+          "0%": { transform: "translateY(-100px)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        nav: "menu 700ms",
+      },
     },
   },
   plugins: [],
